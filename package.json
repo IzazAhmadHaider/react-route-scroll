@@ -1,0 +1,65 @@
+{
+  "name": "react-route-scroll",
+  "version": "1.0.0",
+  "description": "Intelligent route-based scroll management for React Router.",
+  "license": "MIT",
+  "author": "Izaz Ahmad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izazahmad-najoomitech/react-route-scroll.git"
+  },
+  "homepage": "https://github.com/izazahmad-najoomitech/react-route-scroll#readme",
+  "bugs": {
+    "url": "https://github.com/izazahmad-najoomitech/react-route-scroll/issues"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run test && npm run typecheck && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-router-dom": ">=6"
+  },
+  "peerDependenciesMeta": {
+    "react-router-dom": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.9.2",
+    "tsup": "^8.5.0",
+    "vitest": "^3.2.4"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "scroll",
+    "scroll-restoration",
+    "route-scroll",
+    "dashboard",
+    "spa",
+    "typescript"
+  ]
+}
