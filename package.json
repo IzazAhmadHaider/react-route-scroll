@@ -1,16 +1,16 @@
 {
   "name": "react-route-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intelligent route-based scroll management for React Router.",
   "license": "MIT",
   "author": "Izaz Ahmad",
   "repository": {
     "type": "git",
-    "url": "https://github.com/izazahmad-najoomitech/react-route-scroll.git"
+    "url": "https://github.com/IzazAhmadHaider/react-route-scroll.git"
   },
-  "homepage": "https://github.com/izazahmad-najoomitech/react-route-scroll#readme",
+  "homepage": "https://github.com/IzazAhmadHaider/react-route-scroll#readme",
   "bugs": {
-    "url": "https://github.com/izazahmad-najoomitech/react-route-scroll/issues"
+    "url": "https://github.com/IzazAhmadHaider/react-route-scroll/issues"
   },
   "sideEffects": false,
   "type": "module",
