@@ -11,6 +11,7 @@ export function getScrollPosition(container: ScrollContainer): ScrollPosition {
   return { left: container.scrollLeft || 0, top: container.scrollTop || 0 };
 }
 
+
 export function scrollToPosition(
   container: ScrollContainer,
   position: ScrollPosition,
